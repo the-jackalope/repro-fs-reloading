@@ -2,12 +2,12 @@
 
 This project is a repro of a bug that occurs when mounting volumes with Minikube/xhyve.
 
-###Environment
+### Environment
 - **OS**: Mac OS Sierra - 10.12.5
 - **VM Driver**: xhyve - stable 0.3.3
 - **Minikube version**: 0.21.0
 
-###Steps to Repro
+### Steps to Repro
 1. Make sure you have Minikube running and are using the `xhyve` VM driver
     
        $ brew install minikube
