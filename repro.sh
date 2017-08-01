@@ -7,4 +7,4 @@ eval $(minikube docker-env)
 docker build --rm -t repro:latest .
 
 # Run image in container and attach
-docker run -v "$PWD/mounted":"/app/mounted" repro
+docker run --tag repro-fs-reloading -v "$PWD/mounted":"/app/mounted" repro
